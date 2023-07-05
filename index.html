@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrito de Compras</title>
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    
+    <input type="text" id="nombre" placeholder="Nombre del producto">
+    <input type="number" id="precio" placeholder="Precio unitario">
+    <input type="number" id="cantidad" placeholder="Cantidad">
+    <button onclick="agregarProducto()">Agregar Producto</button>
+    
+    <h2>Productos</h2>
+    <div id="productos"></div>
+    
+    <h2>Folio: <span id="folio"></span></h2>
+    
+    <h2>Subtotal: <span id="subtotal"></span></h2>
+    <button onclick="cerrarCarrito()">Cerrar Carrito</button>
+    
+    <h2>Total: <span id="total"></span></h2>
+    
+    <script src="carrito.js"></script>
+</body>
+</html>
